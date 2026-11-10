@@ -8,6 +8,8 @@ public class Journal
        _entries = new List<Entry>();  // when we initalize like we did we have give the list of entry a memory to save
     }
 
+
+
    public void AddEntry(Entry newEntry)
    {
       _entries.Add(newEntry);  // This methods add the new Entry object into the _entries list, newEntry is the name of the parameter
